@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Aleksandr Novikov</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: auto 1fr;
+    }
+    .sq-tech-list {
+      line-height: 2rem;
+    }
+    .sq-tech-list > * {
+      margin-bottom: .5rem;
+    }
+    .sq-tech-list span {
+      padding: .1rem .3rem;
+      border-radius: .5rem;
+      background-color: #eee;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="container grid grid-cols-2 items-stretch">
+    <div class="w-72 flex flex-col items-center p-2 bg-green-100 h-screen">
+      <img class="w-56 h-56 rounded-full my-8" src="https://avatars.githubusercontent.com/u/46861423?v=4" alt="image logo">
+      <div class="p-2 flex flex-col text-sm gap-1">
+        <div>
+          GitHub: 
+          <a class="rounded bg-green-200 p-1 hover:bg-green-300 cursor-pointer" href="https://github.com/OorfeneD">https://github.com/OorfeneD</a>
+        </div>
+        <div>
+          <p>Telegram: @oorfened</p>
+        </div>
+        <div>
+          Mail:
+          <a class="rounded bg-green-200 p-1 hover:bg-green-300 cursor-pointer" href="mailto:oorfened@gmail.com">oorfened@gmail.com</a>
+        </div>
+      </div>
+      <p class="border-t border-black my-2 w-full">
+        <h3 class="text-xl border-b-2 border-black">
+          General skills
+        </h3>
+        <ul class="py-2 list-disc list-inside w-full">
+          <li>
+            <span class="font-bold">Vue</span>,
+            <span class="text-gray-500">VueX</span>,
+            <span class="text-gray-500">Vue-test-utils</span>,
+            <span class="text-gray-500">Nuxt</span>
+          </li>
+          <li>
+            <span class="font-bold">Fastify</span>,
+            <span class="text-gray-500">sqlite3</span>
+          </li>
+          <li>
+            <span class="font-bold">Socket.io</span>
+          </li>
+          <li>
+            <span class="font-bold">Jest</span>
+          </li>
+        </ul>
+      </p>
+      <p class="border-t border-black my-2 w-full">
+        <h3 class="text-xl border-b-2 border-black">
+          Additional skills
+        </h3>
+        <ul class="py-2 list-disc list-inside w-full">
+          <li>
+            <span class="font-bold">Python</span>,
+            <span class="text-gray-500">PyQt</span>,
+            <span class="text-gray-500">OpenCV-Python</span>
+          </li>
+          <li>
+            <span class="font-bold">Firebase</span>
+          </li>
+          <li>
+            <span class="font-bold">Geographic information systems</span>
+          </li>
+          <li>
+            <span class="font-bold">Git</span>
+          </li>
+          <li>
+            <span class="font-bold">Linux</span>,
+            <span class="text-gray-500">Bash scripts</span>,
+            <span class="text-gray-500">Commands</span>
+          </li>
+        </ul>
+      </p>
+      <p class="my-2 w-full border-t border-black">
+        <h3 class="text-xl border-b-2 border-black">
+          Languages
+        </h3>
+        <ul class="list-disc list-inside w-full">
+          <li>Russian: <i>Native</i></li>
+          <li>Ukrainian: <i>Native</i></li>
+          <li>English: <i>Intermediate</i></li>
+        </ul>
+      </p>
+    </div>
+    <div class="p-5">
+      <h2 class="pb-5 text-3xl text-center">Aleksandr Novikov</h2>
+      <p>
+        <h2 class="text-2xl border-b-2 border-black mb-2">
+          Work experience
+        </h2>
+        <h4 class="text-lg font-bold">
+          State Space Agency of Ukraine <span class="text-md italic font-normal">GIS Engineer</span>
+        </h4>
+        <p class="text-sm font-bold text-gray-500">
+          2019 September - Current time
+        </p>
+        <p class="pt-2">
+          <b>Tasks:</b>
+          <ul class="list-disc list-inside">
+            <li>Development of applied software products</li>
+            <li>Maintenance of the website "ERS Geographic Information Portal"</li>
+            <li>Working with geographic information systems</li>
+          </ul>
+        </p>
+        <p class="pt-2">
+          <b>Examples:</b>
+          <ul class="list-disc list-inside flex gap-1 flex-col">
+            <li>
+              ERS Geographic Information Portal
+              <p class="ml-4"><i>Tech stack:</i> <u>JavaScript</u>, <u>Vue</u>, <u>Express</u>, <u>ArcGIS JS API.</u></p>
+            </li>
+            <li>
+              A program for processing packages of visual data
+              <p class="ml-4"><i>Tech stack:</i> <u>Python</u>, <u>PyQt5</u>, <u>OpenCV</u></p>
+            </li>
+            <li>
+              ArcGIS toolbox for publishing Services to ArcGIS Server
+              <p class="ml-4"><i>Tech stack:</i> <u>Python</u>, <u>ArcPy</u></p>
+            </li>
+            <li>
+              Processing system of georeferenced data
+              <p class="ml-4"><i>Tech stack:</i> <u>JavaScript</u>, <u>Nuxt</u> <u>Fastify</u> <u>GDAL</u> <u>SQLite3</u></p>
+            </li>
+          </ul>
+        </p>
+        <h2 class="text-2xl border-b-2 border-black mb-2 mt-5">
+          Education
+        </h2>
+        <h4 class="text-lg font-bold">
+          Vinnytsia National Technical University 
+          <p class="font-normal">Bachelor degree</p>
+          <span class="text-md italic font-normal">"System engineering"</span>
+        </h4>
+        <p class="text-sm font-bold text-gray-500">
+          2014 - 2019
+        </p>
+        <h4 class="text-lg font-bold mt-2">
+          Vinnytsia National Technical University 
+          <p class="font-normal">Master degree</p>
+          <p class="text-md italic font-normal">Program subject area "Automation and Computer-Integrated Technologies"</p>
+          <p class="text-md italic font-normal">Education program "Intelligent Computer Systems"</p>
+        </h4>
+        <p class="text-sm font-bold text-gray-500">
+          2019 - 2020
+        </p>
+        <h2 class="text-2xl border-b-2 border-black mb-2 mt-5">
+          Technologies
+        </h2>
+        <div class="sq-tech-list">
+          <p>
+            <span>JavaScript</span>,
+            <span>HTML</span>,
+            <span>CSS</span>,
+            <span>Vue</span>,
+            <span>Nuxt</span>,
+            <span>VueX</span>,
+            <span>TailwindCSS</span>,
+            <span>Material Design</span>,
+            <span>Anime.js</span>,
+            <span>Three.js</span>,
+            <span>ArcGIS JS</span>.
+          </p>
+          <p>
+            <span>Node.js</span>,
+            <span>Fastify</span>,
+            <span>Express</span>,
+            <span>Socket.io</span>,
+            <span>Jest</span>,
+            <span>REST API</span>,
+            <span>CRUD</span>,
+            <span>RDBMS</span>,
+            <i>
+              <span>Webpack</span>,
+              <span>TypeScript</span>.
+            </i>
+          </p>
+          <p>
+            <span>Git</span>,
+            <span>GitHub</span>,
+            <span>GitLab</span>,
+            <span>Bash</span>,
+            <i>
+              <span>CI/CD</span>,
+              <span>Docker</span>.
+            </i>
+          </p>
+        </div>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
